@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="367C34A2-D861-B313-5640-DE53C77C954E" mainViewID="CA5112C4-2EAC-D2D4-4239-2832C206BF9B">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:30 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>solara-ddl.sql</fileName>
+<pathName>C:\Users\Marina\Documents\ADS\FIAP\Trabalhos\GS-2024-2\Building Relational Database</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

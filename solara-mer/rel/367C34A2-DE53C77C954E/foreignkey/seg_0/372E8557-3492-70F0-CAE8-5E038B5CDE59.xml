@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="372E8557-3492-70F0-CAE8-5E038B5CDE59" containerWithKeyObject="47EDBCCB-B56C-153B-8BFF-256BD0D1EF4C" localFKIndex="5B5CBF3F-22D7-F8F3-8CCD-B9D8A0DC5CC6" name="tb_projetos_sustentaveis_id_tipo_fonte_fk">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>61FDF1D3-C86A-892C-4982-CBEFCA7445E5</importedID>
+<referredTableLongName>TB_TIPO_FONTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30A781CB-70A3-122D-386F-360FA26DBF21</referredTableID>
+<keyObject>915A0B0E-E367-8957-ADF8-3EC60BEA3195</keyObject>
+<referredKeyID>915A0B0E-E367-8957-ADF8-3EC60BEA3195</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_tipo_fonte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

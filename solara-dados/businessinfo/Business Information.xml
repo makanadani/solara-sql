@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="DFD1CC15-D461-E699-45BB-6D571A17F857">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:30 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

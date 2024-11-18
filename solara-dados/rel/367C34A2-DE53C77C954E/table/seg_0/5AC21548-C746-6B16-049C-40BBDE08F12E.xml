@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AC21548-C746-6B16-049C-40BBDE08F12E" name="TB_COMUNIDADES_PROJETOS">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<importedID>E3090B54-F632-EC32-1E2F-4E03555885E4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comunidade" id="EB80505E-47AD-8A47-4489-3FBB62D8D4DC">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<importedID>6046FEDB-C5E2-B8A5-558A-B67780383FDD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07A9CC34-FBBD-39C4-59CD-314835E43044" referredColumn="078962C1-0AD6-948F-76F5-86FCDC0D82AE"/>
+</associations>
+</Column>
+<Column name="id_projeto" id="B277B183-0479-5710-942B-0D79038DEE5A">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<importedID>0FD30F88-EDC1-2574-21F4-341907654CBC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FCBD1C2-9C52-891F-F5ED-5E632C629D7B" referredColumn="0EB307EC-CC6A-4ECB-33A8-0D3511AE02B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A8CAE75-6A40-17F1-C29F-561997EFFAC6" name="tb_comunidades_projetos_id_comunidade">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB80505E-47AD-8A47-4489-3FBB62D8D4DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91F233D8-BA65-037D-D809-DAF1AA9FB59D" name="tb_comunidades_projetos_id_projeto">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B277B183-0479-5710-942B-0D79038DEE5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

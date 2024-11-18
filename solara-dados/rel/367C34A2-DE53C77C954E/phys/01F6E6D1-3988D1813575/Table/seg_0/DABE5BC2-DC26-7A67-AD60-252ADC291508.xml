@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TB_COMUNIDADES" directorySegmentName="seg_0" id="DABE5BC2-DC26-7A67-AD60-252ADC291508">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_comunidade" id="078962C1-0AD6-948F-76F5-86FCDC0D82AE">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="id_regiao" id="1996425D-9356-F68C-1F40-6BFA96A3D022">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="protocolo_atendimento_comunidade" id="5A9DC459-E8BC-FC2E-E617-36B3556CD789">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="latitude_comunidade" id="D392AEE0-FB72-EAEE-16C8-D479EFF308BE">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="longitude_comunidade" id="D9259F79-EB23-F8DB-6A3F-C8035CC08191">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nome_comunidade" id="E8A463A0-2F5B-A7E8-FC92-DBCB635221CA">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_empresa" id="F7C9E2C3-9700-176B-3AA0-6BA3DA204C23">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="tb_comunidades_id_regiao_fk" id="09B51D6A-AA01-A395-ED4B-33B99219D47E">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="tb_comunidades_id_empresa_fk" id="5302E822-2528-1EC2-5385-6D6924A626DB">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tb_comunidades_id_comunidade_pk" id="8847548B-A80F-7882-7C76-B3CA60D4EC1A">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

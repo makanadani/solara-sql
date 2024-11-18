@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6D2B43C-1D8E-49E5-EB82-915AC4A24C91" name="TB_SENSORES">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>1BBA558E-4608-51D9-B81B-9E02D95AB400</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor" id="F015385E-D848-2234-A142-9827803CEC47">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>377F3C51-DDE8-F2DD-9B54-CB1991A5C133</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_comunidade" id="66B5823F-0A15-2B09-102C-83D1BD55E9C5">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>6759015F-D8C2-C5FC-067E-8C0D2F171129</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C541A6F0-4DBC-D49D-9686-FABEA812E59B" referredColumn="078962C1-0AD6-948F-76F5-86FCDC0D82AE"/>
+</associations>
+</Column>
+<Column name="id_tipo_fonte" id="62B03AA6-A9D2-D905-9AB8-690018FB61D9">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>E5B30159-B3D9-1F6E-B50C-AE2B1EB4D262</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="070900F7-99CD-A284-1F0B-DC48A79EF150" referredColumn="4D6F2C91-86B6-0736-A518-0C51D2976EFA"/>
+</associations>
+</Column>
+<Column name="tipo_sensor" id="0C1E08FB-6DCA-C326-FC11-EE98E27A9ACE">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>D5A826B9-4824-556B-33DA-66D91B9FD208</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DAAE6E1-E1C5-756C-3AAF-3E84C5FF8B7C</domain>
+<listOfValues>
+<valueDef value="Armazenamento" description=""/>
+<valueDef value="Consumo" description=""/>
+<valueDef value="ProduÃ§Ã£o" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_sensaor" id="0FD4703C-02E7-8333-14B0-3794BD7C6CCA">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>D0D6405E-E43E-69E8-97AA-EA9C1C4C668D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B1CE4F86-AEAF-E10C-7468-1666E8FBD450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="194A4B74-29E8-AE4F-7FA0-0020E93CF892" name="tb_sensores_id_pk">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>C96072B5-BAB9-9CF2-7393-2242E77B7BA5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F015385E-D848-2234-A142-9827803CEC47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12D5B703-575B-237D-EE56-EF7B4A8C4FD4" name="tb_sensores_id_comunidade_fk">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66B5823F-0A15-2B09-102C-83D1BD55E9C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68DF8A00-CF67-18AF-5351-A61633DA117A" name="tb_sensores_id_tipo_fonte_fk">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62B03AA6-A9D2-D905-9AB8-690018FB61D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

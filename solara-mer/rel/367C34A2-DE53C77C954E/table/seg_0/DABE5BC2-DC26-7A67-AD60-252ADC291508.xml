@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DABE5BC2-DC26-7A67-AD60-252ADC291508" name="TB_COMUNIDADES">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>ADA5B292-A22F-7637-1B91-C17185CC48D4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comunidade" id="078962C1-0AD6-948F-76F5-86FCDC0D82AE">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>A21D5832-BE05-A10B-F869-509B06A59D2A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_empresa" id="F7C9E2C3-9700-176B-3AA0-6BA3DA204C23">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>8B338243-53ED-06D4-C03A-799FCECEBD85</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01C6F2B0-B918-0CDB-3292-F655491AFC45" referredColumn="A70CDC99-67CC-E2B9-CE1D-6E395745067B"/>
+</associations>
+</Column>
+<Column name="id_regiao" id="1996425D-9356-F68C-1F40-6BFA96A3D022">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>E8144C20-2FC1-551E-B8D8-19A71893A1A6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF18989E-9639-B8E9-E469-85F10F024EB7" referredColumn="3312781C-7EA0-69AD-5AA6-37E0F45E6C58"/>
+</associations>
+</Column>
+<Column name="protocolo_atendimento_comunidade" id="5A9DC459-E8BC-FC2E-E617-36B3556CD789">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>3494EF1A-055D-828D-98B4-4E05A9475788</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_comunidade" id="E8A463A0-2F5B-A7E8-FC92-DBCB635221CA">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>585E3DF6-A08F-BEEA-0084-8BC36D38A1AF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B1CE4F86-AEAF-E10C-7468-1666E8FBD450</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude_comunidade" id="D392AEE0-FB72-EAEE-16C8-D479EFF308BE">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>3A060127-435A-6FE0-8F04-C4DAA1CEF87D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60C8D0FF-404B-85A4-2A95-C47A1F61232D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude_comunidade" id="D9259F79-EB23-F8DB-6A3F-C8035CC08191">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>78A762DD-A084-73BD-3D4B-B83B0A8BE52C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A4F16106-238C-410F-9543-4C34CAACCC10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8847548B-A80F-7882-7C76-B3CA60D4EC1A" name="tb_comunidades_id_comunidade_pk">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>BD7D3590-A7F0-2FEA-BC32-12234A407434</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="078962C1-0AD6-948F-76F5-86FCDC0D82AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5302E822-2528-1EC2-5385-6D6924A626DB" name="tb_comunidades_id_empresa_fk">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7C9E2C3-9700-176B-3AA0-6BA3DA204C23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09B51D6A-AA01-A395-ED4B-33B99219D47E" name="tb_comunidades_id_regiao_fk">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1996425D-9356-F68C-1F40-6BFA96A3D022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

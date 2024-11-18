@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E71AD0AC-CA09-613C-E132-8A0216A32479" mainViewID="20794D1A-D416-ADBB-9C0B-8F67BF5E2BD2">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:30 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

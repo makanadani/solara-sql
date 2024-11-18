@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FCBD1C2-9C52-891F-F5ED-5E632C629D7B" containerWithKeyObject="5AC21548-C746-6B16-049C-40BBDE08F12E" localFKIndex="91F233D8-BA65-037D-D809-DAF1AA9FB59D" name="tb_comunidades_projetos_id_projeto">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<importedID>31714718-E710-8D7E-7AC2-68BF38B07571</importedID>
+<referredTableLongName>TB_PROJETOS_SUSTENTAVEIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47EDBCCB-B56C-153B-8BFF-256BD0D1EF4C</referredTableID>
+<keyObject>A18E954B-9706-11EC-654C-DE387911FA4C</keyObject>
+<referredKeyID>A18E954B-9706-11EC-654C-DE387911FA4C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_projeto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

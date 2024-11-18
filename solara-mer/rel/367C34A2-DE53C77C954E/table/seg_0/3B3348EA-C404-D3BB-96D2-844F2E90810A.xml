@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B3348EA-C404-D3BB-96D2-844F2E90810A" name="TB_MEDICOES">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>21434145-7A8A-6C8E-25CF-ED6C81C85D88</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medicao" id="AA8A591C-D6F0-CEA4-39F7-04C1E2BB6BDF">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>AFF31AB8-16D8-A92D-12CA-2C285A57E523</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="id_comunidade" id="BBD360A6-7DA2-C0AE-69FE-81A29F926B8B">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>284E4307-0DF8-D3CF-72CD-8B61A81F6BA1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEE2D5DF-1860-44B2-BDAF-2DC54E6A788F" referredColumn="078962C1-0AD6-948F-76F5-86FCDC0D82AE"/>
+</associations>
+</Column>
+<Column name="id_sensor" id="24193578-FFEC-5E91-C2DC-FABF5EC1EBF8">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>14E043E1-9B1F-9B4A-85E8-0393EED4792C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C62EA38B-2456-445F-D505-5D6DDF03B841" referredColumn="F015385E-D848-2234-A142-9827803CEC47"/>
+</associations>
+</Column>
+<Column name="tipo_medicao" id="BE68575A-F5D8-E79F-8BAF-E07D5DC970CD">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>81FF0D3F-36CB-2F87-431A-4E94B1763635</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8DAAE6E1-E1C5-756C-3AAF-3E84C5FF8B7C</domain>
+<listOfValues>
+<valueDef value="Armazenamento" description=""/>
+<valueDef value="Consumo" description=""/>
+<valueDef value="ProduÃ§Ã£o" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_medicao" id="DB7629FB-1442-A542-A1D3-C5D071CEBC25">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>00C14690-7C35-E3ED-9420-4E325F33469F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3CBAA739-ED00-4B2C-C4FC-E4CC17E71829</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora_medicao" id="9EFEFA35-1DAA-C47C-7EA4-8EE5D4993D0C">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>EE27527A-3E67-D9E2-7027-D69268BF6570</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>04B398A2-8F75-1414-6E51-A061CE0D7F4E</domain>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E15C3B3-F20D-A2F1-0B0A-ED52BE7CCFE5" name="tb_medicoes_id_medicao_pk">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>B3764B93-BE17-0B31-28F0-6F728B5AD402</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA8A591C-D6F0-CEA4-39F7-04C1E2BB6BDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF4CE240-B6A9-CD0D-23FC-8ACD2AEB73B3" name="tb_medicoes_id_comunidade_fk">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD360A6-7DA2-C0AE-69FE-81A29F926B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB442D2D-8844-6B2E-A552-29C754F17787" name="tb_medicoes_id_medidor_fk">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24193578-FFEC-5E91-C2DC-FABF5EC1EBF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

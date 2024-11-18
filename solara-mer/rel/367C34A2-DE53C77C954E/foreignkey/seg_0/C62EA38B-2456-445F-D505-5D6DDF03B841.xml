@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C62EA38B-2456-445F-D505-5D6DDF03B841" containerWithKeyObject="3B3348EA-C404-D3BB-96D2-844F2E90810A" localFKIndex="BB442D2D-8844-6B2E-A552-29C754F17787" name="tb_medicoes_id_medidor_fk">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<importedID>20203E0E-1DEC-1B4B-9A1D-EA568BAFFB47</importedID>
+<referredTableLongName>TB_SENSORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F6D2B43C-1D8E-49E5-EB82-915AC4A24C91</referredTableID>
+<keyObject>194A4B74-29E8-AE4F-7FA0-0020E93CF892</keyObject>
+<referredKeyID>194A4B74-29E8-AE4F-7FA0-0020E93CF892</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sensor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

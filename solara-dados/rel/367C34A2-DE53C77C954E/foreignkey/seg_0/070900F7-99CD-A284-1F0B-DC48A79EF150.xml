@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="070900F7-99CD-A284-1F0B-DC48A79EF150" containerWithKeyObject="F6D2B43C-1D8E-49E5-EB82-915AC4A24C91" localFKIndex="68DF8A00-CF67-18AF-5351-A61633DA117A" name="tb_sensores_id_tipo_fonte_fk">
+<sourceDDLFile>solara-ddl.sql</sourceDDLFile>
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:43 UTC</createdTime>
+<ownerDesignName>solara-dados</ownerDesignName>
+<importedID>8F5BED13-D267-D435-93B0-F8AD595DFDD2</importedID>
+<referredTableLongName>TB_TIPO_FONTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30A781CB-70A3-122D-386F-360FA26DBF21</referredTableID>
+<keyObject>915A0B0E-E367-8957-ADF8-3EC60BEA3195</keyObject>
+<referredKeyID>915A0B0E-E367-8957-ADF8-3EC60BEA3195</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_fonte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

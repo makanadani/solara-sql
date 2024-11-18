@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="solara-mer" id="4BAC430A-1C93-0F5E-2CAD-F19E5022476F" version="3.5">
+<createdBy>Marina</createdBy>
+<createdTime>2024-11-18 02:51:30 UTC</createdTime>
+<ownerDesignName>solara-mer</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4BAC430A-1C93-0F5E-2CAD-F19E5022476F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="733539E9-EAAF-3C66-CA64-C4F1C865DEF7">
+<designStoragePath>C:\solara-ddl</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
